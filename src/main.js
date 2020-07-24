@@ -11,7 +11,7 @@ import ToastService from 'primevue/toastservice';
 import Toast from 'primevue/toast';
 
 
-import AuthComponent from '@/components/auth/AuthComponent.vue'
+//import AuthComponent from '@/components/auth/AuthComponent.vue'
 import BrandsComponent from '@/components/cruds/BrandsComponent.vue'
 import ClientsComponent from '@/components/cruds/ClientsComponent.vue'
 import RolesComponent from '@/components/cruds/RolesComponent.vue'
@@ -36,7 +36,7 @@ var router = new VueRouter({
   routes: [
     {
       path: '/',
-      component: AuthComponent
+      component: ClientsComponent
     },
     {
       path: '/users',
